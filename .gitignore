@@ -1,0 +1,54 @@
+# --- PYTHON CACHE ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# --- UV (package manager) ---
+.uv/
+.venv/
+uv.lock
+
+# --- VENV (caso use outro env) ---
+venv/
+env/
+.virtualenv/
+
+# --- PYINSTALLER ---
+build/
+dist/
+*.spec
+# Pasta temporária do PyInstaller
+*_MEI*/
+# Arquivos extraídos temporariamente
+tmp/
+
+# --- LOGS ---
+*.log
+
+# --- SISTEMA OPERACIONAL ---
+.DS_Store
+Thumbs.db
+
+# --- TKINTER BUILD (caso use pyinstaller --windowed) ---
+*.exe
+*.dll
+
+# --- TESTES ---
+.coverage
+htmlcov/
+pytest_cache/
+
+# --- EDITOR / IDE ---
+.vscode/
+.idea/
+*.iml
+
+# --- OUTROS ARQUIVOS QUE NÃO DEVERÃO IR PRO GIT ---
+*.zip
+*.bak
+*.tmp
+
+# --- PDF OU ARQUIVOS DO PROJETO QUE NÃO SÃO CÓDIGOS ---
+*.pdf
